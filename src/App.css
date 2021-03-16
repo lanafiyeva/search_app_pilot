@@ -1,0 +1,138 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat");
+
+.App {
+    text-align: center;
+    font-family: Montserrat;
+}
+
+.logo {
+    max-width: 25%;
+}
+
+.header {
+    color: #ffffff;
+    background: #ffffff;
+}
+
+.ant-layout-content {
+    padding: 0 50px;
+    background: #ffffff;
+}
+
+.ant-input {
+    border-color: #c1c1c1;
+    border-radius: 10px;
+    max-width: 1000px;
+    height: 40px;
+    font: "Montserrat";
+    font-size: 12px;
+}
+
+.ant-input:hover {
+    border-color: #000000;
+    border-right-width: 1px !important;
+}
+
+.ant-col {
+    display: flex;
+    align-items: start;
+}
+
+.ant-btn-primary {
+    background: #000000;
+    color: #ffffff;
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+    border-color: transparent;
+}
+
+.ant-btn-primary:hover {
+    background-color: #c1c1c1;
+    border-color: transparent;
+}
+
+.empty_search {
+    width: 100%;
+    opacity: 0.4;
+    margin: 80px 0px 80px 0px;
+}
+
+.ant-col-24 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ant-layout-footer {
+    background-color: #ffffff;
+}
+
+.search-results-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #c1c1c1;
+    border-radius: 20px;
+    margin: 0 0 14px 0;
+    padding: 13px 23px 16px 31px;
+}
+
+.row-search-results-items {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 90%;
+}
+
+.App-header {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+}
+
+.App-link {
+    color: #61dafb;
+}
+
+.title {
+    font-size: 14px;
+    font-weight: bold;
+    margin: 0 0 5px 0;
+}
+
+.description {
+    font-size: 12px;
+    margin: 0 0 5px 0;
+}
+
+.domain {
+    font-size: 12px;
+    color: #38b6ff;
+    text-decoration: underline;
+}
+
+.search-panel {
+    margin: 0 0 18px 0;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    .App-logo {
+        animation: App-logo-spin infinite 20s linear;
+    }
+}
+
+@keyframes App-logo-spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
